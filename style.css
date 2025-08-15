@@ -1,0 +1,42 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #FFD700;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+nav a {
+    margin-right: 15px;
+}
+
+button {
+    background-color: #FFD700;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
+
+header, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
