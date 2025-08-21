@@ -1,6 +1,6 @@
 body {
-    background-color: #0D1B2A; /* Deep navy background */
-    color: #E0E1DD; /* Soft light gray text */
+    background-color: #FFD700; /* Gold background */
+    color: #000000; /* Black text */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,22 +8,21 @@ body {
 
 /* Headings */
 h1 {
-    color: #00B4D8; /* Bright teal */
-    text-shadow: 0 0 8px rgba(0, 180, 216, 0.5);
+    color: #0D1B2A; /* Deep navy */
     font-size: 2.6em;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: #FF6F61; /* Coral */
-    border-bottom: 2px solid #FF6F61;
+    color: #B22222; /* Crimson */
+    border-bottom: 2px solid #B22222;
     padding-bottom: 5px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 h3 {
-    color: #90E0EF; /* Softer teal */
+    color: #004C4C; /* Dark teal */
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -31,12 +30,13 @@ h3 {
 
 /* Links */
 a {
-    color: #00B4D8; /* Teal */
+    color: #0D1B2A; /* Navy */
     text-decoration: none;
+    font-weight: bold;
 }
 a:hover {
-    color: #FF6F61; /* Coral hover */
-    text-shadow: 0 0 6px rgba(255, 111, 97, 0.6);
+    color: #B22222; /* Crimson hover */
+    text-shadow: 0 0 4px rgba(178, 34, 34, 0.4);
 }
 
 /* Nav Links */
@@ -46,8 +46,8 @@ nav a {
 
 /* Buttons */
 button {
-    background-color: #00B4D8; /* Teal */
-    color: #0D1B2A;
+    background-color: #0D1B2A; /* Navy */
+    color: #FFD700; /* Gold text */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF6F61; /* Coral */
+    background-color: #B22222; /* Crimson */
     color: #FFFFFF;
     transform: scale(1.05);
 }
@@ -67,7 +67,8 @@ button:hover {
 header, footer {
     padding: 20px;
     text-align: center;
-    background: #1B263B; /* Slightly lighter navy */
+    background: #000000; /* Black for contrast */
+    color: #FFD700; /* Gold text inside */
 }
 
 /* Main Content */
