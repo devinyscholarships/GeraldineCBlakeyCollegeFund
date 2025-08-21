@@ -1,6 +1,6 @@
 body {
-    background-color: #FFD700; /* Gold background */
-    color: #000000; /* Black text */
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White body text */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,13 +8,14 @@ body {
 
 /* Headings */
 h1 {
-    color: #0D1B2A; /* Deep navy */
+    color: #FFD700; /* Gold */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
     font-size: 2.6em;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: #B22222; /* Crimson */
+    color: #B22222; /* Crimson red */
     border-bottom: 2px solid #B22222;
     padding-bottom: 5px;
     margin-top: 30px;
@@ -22,7 +23,7 @@ h2 {
 }
 
 h3 {
-    color: #004C4C; /* Dark teal */
+    color: #FFC94D; /* Softer gold */
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -30,13 +31,12 @@ h3 {
 
 /* Links */
 a {
-    color: #0D1B2A; /* Navy */
+    color: #FFD700; /* Gold */
     text-decoration: none;
-    font-weight: bold;
 }
 a:hover {
-    color: #B22222; /* Crimson hover */
-    text-shadow: 0 0 4px rgba(178, 34, 34, 0.4);
+    color: #B22222; /* Red hover */
+    text-shadow: 0 0 6px rgba(178, 34, 34, 0.6);
 }
 
 /* Nav Links */
@@ -46,8 +46,8 @@ nav a {
 
 /* Buttons */
 button {
-    background-color: #0D1B2A; /* Navy */
-    color: #FFD700; /* Gold text */
+    background-color: #FFD700; /* Gold */
+    color: #000000; /* Black text */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #B22222; /* Crimson */
+    background-color: #B22222; /* Red hover */
     color: #FFFFFF;
     transform: scale(1.05);
 }
@@ -67,8 +67,6 @@ button:hover {
 header, footer {
     padding: 20px;
     text-align: center;
-    background: #000000; /* Black for contrast */
-    color: #FFD700; /* Gold text inside */
 }
 
 /* Main Content */
